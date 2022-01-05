@@ -1,5 +1,5 @@
 {
-  "name": "unchained-react-qr-reader",
+  "name": "@unchained/react-qr-reader",
   "version": "2.2.2",
   "description": "A react component for reading QR codes from the webcam.",
   "main": "./lib/index.js",
