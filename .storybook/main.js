@@ -1,6 +1,7 @@
 module.exports = {
   stories: [`../stories/*.stories.tsx`],
   addons: ['@storybook/addon-essentials'],
+
   typescript: {
     check: false,
     checkOptions: {},
@@ -10,5 +11,14 @@ module.exports = {
       propFilter: (prop) =>
         prop.parent ? !/node_modules/.test(prop.parent.fileName) : true,
     },
+  },
+
+  framework: {
+    name: '@storybook/react-webpack5',
+    options: {},
+  },
+
+  docs: {
+    autodocs: true,
   },
 };
