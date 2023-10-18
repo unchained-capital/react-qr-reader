@@ -15,7 +15,6 @@
     "noImplicitThis": false,
     "noImplicitAny": false,
     "strictNullChecks": false,
-    "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": false,
     "declaration": true,
     "allowSyntheticDefaultImports": true,
@@ -25,6 +24,6 @@
     "declarationDir": "types",
     "emitDeclarationOnly": true
   },
-  "include": ["src/**/*", "old.js"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }

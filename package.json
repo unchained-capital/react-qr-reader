@@ -2,6 +2,9 @@
   "name": "@unchained/react-qr-reader",
   "version": "4.0.0",
   "description": "A React Component for reading QR codes from the webcam",
+  "publishConfig": {
+    "registry": "https://artifacts.unchained-capital.us/repository/npm-unchained/"
+  },
   "scripts": {
     "build": "rollup -c",
     "prepublish": "npm run build",
